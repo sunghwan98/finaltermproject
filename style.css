@@ -1,0 +1,4 @@
+#content-wrapper > section {
+    width: 100%;
+    overflow-x: hidden;
+}

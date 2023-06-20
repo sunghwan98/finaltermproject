@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'Spoqa Han Sans Neo';
+    src: url('font_file/SCDream4.otf');
+  }
+body {
+    position: relative;
+    width: 100%;
+    overflow-x: hidden;
+    margin: 0;
+    font-family: "Spoqa Han Sans Neo", sans-serif;
+}
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, form, fieldset, p, button {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+    outline: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    word-break: keep-all;
+}
+button {
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    border: none;
+    background-color: inherit;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-family: inherit;
+    color: inherit;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+ul {
+    padding-left: 0;
+    margin: 0;
+    list-style-type: none;
+}
+img {
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+button:hover{
+    font-weight: bold;
+}
+
+.limit-area{
+    width: 1440px;
+    margin: 0 auto;
+}

@@ -1,0 +1,80 @@
+main {
+    position: relative;
+    z-index: 40;
+    height: calc(100vh - 60px);
+}
+main .title-wrapper {
+    position: absolute;
+    top: 0;
+    z-index: 5;
+    width: 100%;
+    height: inherit;
+    padding-top: 10vh;
+    text-align: center;
+}
+
+.video-background {
+    position: relative;
+    overflow: hidden;
+    width: 100vw;
+    height: inherit;
+    filter: brightness(60%);
+}
+main h1 {
+    position: relative;
+    z-index: 1;
+    height: 80px;
+    font-size: 50px;
+    color: white;
+    font-weight: bolder;
+    line-height: 80px;
+}
+.screen-out {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    line-height: 0;
+    text-indent: -9999px;
+    overflow: hidden;
+}
+
+main h1 span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    animation-duration: 14000ms;
+    animation-iteration-count: infinite;
+    opacity: 0;
+}
+main.active .title-01 {
+    animation-name: fadeInAndOut01;
+}
+main.active .title-02 {
+    animation-name: fadeInAndOut02;
+}
+html {
+    scroll-behavior: smooth;
+}
+main.active .video-background iframe {
+    opacity: 1;
+}
+
+.video-background img {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 100vw;
+    /* height: 100vh; */
+    transform: translate3d(-50%, 0, 0);
+    z-index: 3;
+    /* opacity: 0; */
+    transition: opacity 300ms;
+}
+
+@media (min-aspect-ratio: 16 / 9){
+    .video-background iframe, .video-background .poster {
+        height: 56.25vw;
+    }
+}

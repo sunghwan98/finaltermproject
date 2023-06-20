@@ -1,0 +1,79 @@
+.css-1bpzf0u {
+    padding: 0px 90px 90px;
+    margin-top: 64px;
+    width: 100vw;
+    height: 200px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: flex-end;
+    -webkit-box-align: flex-end;
+    -ms-flex-align: flex-end;
+    align-items: flex-end;
+    background-color: #d7daee ;
+}
+.css-a988yr {
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: flex-end;
+    -webkit-box-align: flex-end;
+    -ms-flex-align: flex-end;
+    align-items: flex-end;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+}
+.css-5wgd6o {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+.css-cojgc7 {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 21.6px;
+    color: #1758a7;
+}
+.css-1l8yp2d {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 21.6px;
+    margin-top: 4px;
+    color: #1758a7;
+}
+.css-r04mer {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.css-xzk80m {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+}
+embed, iframe, img, object, svg {
+    vertical-align: bottom;
+}
+.css-xzk80m>svg>circle {
+    fill: #C0C8D9;
+    -webkit-transition: fill 0.4s linear;
+    transition: fill 0.4s linear;
+}
+.css-r04mer>*+* {
+    margin-left: 8px;
+}

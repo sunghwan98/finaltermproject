@@ -1,0 +1,267 @@
+#_contentBuilder ._fnctWrap {
+    height: 100%;
+}
+#content-wrap ._fnctWrap, .wrapper {
+    box-sizing: border-box;
+    margin: 0 auto;
+    max-width: 1260px;
+    background-color: white;
+}
+._fnctWrap {
+    position: relative;
+    line-height: 1.5;
+}
+.board-view-info {
+    font-size: 0;
+}
+.view-info {
+    border-top: 2px solid #000000;
+}
+.view-info .view-num {
+    display: none;
+}
+.view-info .view-title {
+    background: #fff;
+    font-size: 22px;
+    font-family: 'Noto Medium';
+    border-bottom: 1px solid #e2e2e2;
+    padding: 30px 30px;
+    text-align: center;
+    color: #000;
+    line-height: 1.5;
+}
+.view-detail {
+    display: inline-block;
+    width: 100%;
+    border-bottom: 1px solid #e2e2e2;
+    padding: 10px 0 10px 20px;
+    text-align: right;
+}
+.view-detail .view-util {
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 16px;
+    color: #9b9b9b;
+    font-family: 'Noto Light';
+}
+.view-detail .view-share {
+    display: inline-block;
+    margin-right: 20px;
+}
+.view-detail .view-util dl {
+    display: inline-block;
+    padding-left: 15px;
+    margin-left: 15px;
+    position: relative;
+}
+.view-detail .view-util .modify {
+    display: none;
+}
+.view-detail .view-util dt {
+    padding-right: 1px;
+    color: #666;
+}
+.view-detail .view-util dl:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 12px;
+    width: 1px;
+    height: 11px;
+    background: #c3c3c3;
+}
+.view-detail .view-util dt, .view-detail .view-util dd {
+    display: inline-block;
+}
+.view-con {
+    padding: 30px 20px;
+    font-size: 18px;
+    font-family: 'Noto Light';
+    color: #666;
+    text-align: center;
+}
+.view-con img{
+    align-items: center;
+}
+.iQhCMD {
+    background-image: url(img/평생교육과-대학생등록금지원-포스터.jpg);
+    background-position: center top;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+.jKxSeT {
+    max-width: 1920px;
+    margin: 0px auto;
+}
+.iQhCMD::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    inset: 0px;
+    background: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(20px);
+    z-index: -1;
+}
+.fMUJgU {
+    max-width: 1280px;
+    margin: 0px auto;
+    margin-left: 130px;
+    margin-right: 130px;
+}
+.eWmosv {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+}
+.eWmosv {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+}
+.eygXYB {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.3;
+    color: rgb(255, 255, 255);
+    background-color: rgb(15, 15, 15);
+    border-radius: 100px;
+}
+.cFMQTz {
+    font-size: 22px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    line-height: 1.4;
+}
+.QIelS {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: auto;
+    gap: 62px;
+}
+.ljrqWx {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    width: 100%;
+}
+.ljrqWx::before {
+    content: "";
+    display: block;
+    padding-bottom: 140%;
+}
+.iDycBJ {
+    cursor: pointer;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    padding: 5px;
+    background-color: rgba(17, 17, 17, 0.5);
+    right: 20px;
+    bottom: 20px;
+}
+.dSZzXe {
+    display: flex;
+    flex-direction: column;
+}
+.dSZzXe {
+    display: flex;
+    flex-direction: column;
+}
+.eWmosv {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+}
+.PoWdv {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.4;
+    color: rgb(156, 156, 156);
+}
+.gIyzhW {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.4;
+    color: rgb(255, 255, 255);
+}
+.hVNFLs {
+    background-color: rgb(15, 15, 15);
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.4;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    width: 300px;
+    height: 50px;
+    cursor: pointer;
+}
+.gIyzhW {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.4;
+    color: rgb(255, 255, 255);
+}
+.irEgCE {
+    color: rgb(255, 255, 255);
+    padding: 6px 12px 5px;
+    font-size: 12px;
+    font-weight: 400;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 100px;
+    line-height: 1.5;
+}
+.dRJuMp {
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.4;
+}
+.coVPCe {
+    display: grid;
+}
+.cgoIUe {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.4;
+}
+.dBOoHJ div .toastui-editor-contents {
+    font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", Oxygen, Ubuntu, Cantarell, "Open Sans", sans-serif;
+    font-weight: 400;
+    word-break: keep-all;
+    overflow-wrap: break-word;
+}
+.dBOoHJ div .toastui-editor-contents :not(table) {
+    font-size: 18px;
+    letter-spacing: -0.004em;
+    line-height: 1.7;
+}
+.toastui-editor-contents p {
+    margin: 10px 0;
+    color: #222;
+}
+.toastui-editor-contents :not(table) {
+    line-height: 160%;
+    box-sizing: content-box;
+}
+.toastui-editor-contents strong {
+    font-weight: 700;
+}
+.dBOoHJ div .toastui-editor-contents :not(table) {
+    font-size: 18px;
+    letter-spacing: -0.004em;
+    line-height: 1.7;
+}
